@@ -233,6 +233,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/mint/proprietary/lib/libta.so:system/lib/libta.so \
     vendor/sony/mint/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/mint/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+    vendor/sony/mint/proprietary/lib/libtime_genoff.so:obj/lib/libtime_genoff.so \
     vendor/sony/mint/proprietary/etc/firmware/touch_module_id_0x32.img:system/etc/firmware/touch_module_id_0x32.img \
     vendor/sony/mint/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/mint/proprietary/bin/usbhub_init:system/bin/usbhub_init \

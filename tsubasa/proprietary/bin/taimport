@@ -1,0 +1,247 @@
+#!/system/bin/sh
+#
+# @(#) taimport for Xperia T/TX/TL/V 4.3 ver. 1.2
+#
+# Description:
+#   A taimport script that simple function with logging.
+#
+# Original author:
+#   cray_Doze
+#
+# Ported by:
+#   davidmarco, NUT, peetr_
+#
+###########################################################################
+
+# run only once
+if [ ! -e /dev/2nd_run_check ];then
+
+  echo "script was already executed once" > /dev/2nd_run_check
+
+  # Constant definition
+  LOGPATH="/cache/taimport"
+  LOGFILE="${LOGPATH}/taimport.log"
+  WORKDIR="${LOGPATH}"
+  BTMGRPATH="/system/btmgr"
+
+  # Busybox setup
+  if [ -x "${BTMGRPATH}/bin/busybox" ]; then
+    BUSYBOX="${BTMGRPATH}/bin/busybox"
+  elif [ -x "/system/xbin/busybox" ]; then
+    BUSYBOX="/system/xbin/busybox"
+  elif [ -x "/system/bin/busybox" ]; then
+    BUSYBOX="/system/bin/busybox"
+  else
+    BUSYBOX=""
+  fi
+
+  # Command setup
+  DATE="${BUSYBOX} date"
+  MKDIR="${BUSYBOX} mkdir"
+  CHOWN="${BUSYBOX} chown"
+  CHMOD="${BUSYBOX} chmod"
+  MV="${BUSYBOX} mv"
+  TOUCH="${BUSYBOX} touch"
+  CAT="${BUSYBOX} cat"
+  SLEEP="${BUSYBOX} sleep"
+  KILL="${BUSYBOX} kill"
+  PKILL="${BUSYBOX} pkill"
+  RM="${BUSYBOX} rm"
+  PS="${BUSYBOX} ps"
+  GREP="${BUSYBOX} grep"
+  AWK="${BUSYBOX} awk"
+  EXPR="${BUSYBOX} expr"
+  MOUNT="${BUSYBOX} mount"
+  UMOUNT="${BUSYBOX} umount"
+  TAR="${BUSYBOX} tar"
+  CHROOT="${BUSYBOX} chroot"
+  LS="${BUSYBOX} ls"
+  HEXDUMP="${BUSYBOX} hexdump"
+
+  # Environment variable definition
+  PATH="/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin"; export PATH
+
+  # Function definition for logging
+  ECHOL(){
+    _DATETIME=`${DATE} +"%Y%m%d %H%M%S"`
+    echo "${_DATETIME}: $*" >> ${LOGFILE}
+    return 0
+  }
+  EXECL(){
+    _DATETIME=`${DATE} +"%Y%m%d %H%M%S"`
+    echo "${_DATETIME}: $*" >> ${LOGFILE}
+    $* 2>> ${LOGFILE}
+    _RET=$?
+    echo "${_DATETIME}: RET=${_RET}" >> ${LOGFILE}
+    return ${_RET}
+  }
+
+  # Logfile rotation
+  if [ ! -d "${LOGPATH}" ];then
+    ${MKDIR} ${LOGPATH}
+    ${CHOWN} system.cache ${LOGPATH}
+    ${CHMOD} 770 ${LOGPATH}
+  elif [ -f ${LOGFILE}.2 ];then
+      ${MV} ${LOGFILE}.2 ${LOGFILE}.3
+      ${MV} ${LOGFILE} ${LOGFILE}.2
+      ${TOUCH} ${LOGFILE}
+      ${CHMOD} 660 ${LOGFILE}
+  elif [ -f ${LOGFILE} ];then
+      ${MV} ${LOGFILE} ${LOGFILE}.2
+      ${TOUCH} ${LOGFILE}
+      ${CHMOD} 660 ${LOGFILE}
+  else
+  ECHOL "### nothing..."
+  fi
+
+  # Start main routine
+  ECHOL "### taimport start..."
+  ECHOL "### BUSYBOX=${BUSYBOX}"
+
+  # Make work directory
+  ECHOL "### check workdir..."
+  if [ ! -d "${WORKDIR}" ];then
+    EXECL ${MKDIR} ${WORKDIR}
+    EXECL ${CHOWN} system.cache ${WORKDIR}
+    EXECL ${CHMOD} 770 ${WORKDIR}
+  fi
+
+  # LED setting
+  LED_RED="$(${LS} /sys/class/leds/*-red/brightness)"
+  LED_BLUE="$(${LS} /sys/class/leds/*-blue/brightness)"
+  LED_GREEN="$(${LS} /sys/class/leds/*-green/brightness)"
+
+  # original taimport
+  exec /system/bin/taimportx &
+
+  # check recovery-boot file
+  if [ ! -e /cache/recovery/boot -a -n "${BUSYBOX}" ];then
+    # keycheck for recovery-boot
+    ECHOL "### keycheck..."
+
+    # Turn on blue-led.
+    echo "0" > ${LED_RED}
+    echo "0" > ${LED_GREEN}
+    echo "255" > ${LED_BLUE}
+
+    # trigger vibration
+    echo '200' > /sys/class/timed_output/vibrator/enable
+
+    for EVENTDEV in $(${LS} /dev/input/event* )
+    do
+      SUFFIX="$(${EXPR} ${EVENTDEV} : '/dev/input/event\(.*\)')"
+      ${CAT} ${EVENTDEV} > ${WORKDIR}/keyevent${SUFFIX} &
+    done
+    ${SLEEP} 3
+
+    for CATPROC in $(${PS} | ${GREP} /dev/input/event | ${GREP} -v grep | ${AWK} '{print $1}')
+    do
+      EXECL ${KILL} -9 ${CATPROC}
+    done
+
+    # Turn off blue-led.
+    echo "0" > ${LED_RED}
+    echo "0" > ${LED_GREEN}
+    echo "0" >  ${LED_BLUE}
+
+    ${HEXDUMP} ${WORKDIR}/keyevent* | ${GREP} -e '^.* 0001 .... .... ....$' > ${WORKDIR}/keycheck
+  fi
+
+  if [ -s ${WORKDIR}/keycheck -o -e /cache/recovery/boot -a -n "${BUSYBOX}" ] || [ "$(${CAT} /proc/cmdline | ${AWK} '{print $2}' | ${GREP} -e 02 -c)" -eq 1 ];then
+    ECHOL "### recovery boot mode..."
+
+    EXECL ${RM} /cache/recovery/boot
+
+    # Recovery boot mode notification
+    echo "0" > ${LED_RED}
+    echo "255" > ${LED_GREEN}
+    echo "0" > ${LED_BLUE}
+    ${SLEEP} 1
+    echo "0" > ${LED_RED}
+    echo "0" > ${LED_GREEN}
+    echo "0" > ${LED_BLUE}
+
+    # Boot recovery
+    EXECL cd /
+
+    if [ -f /system/bin/recovery.tar ];then
+      ECHOL "### /system/bin/recovery.tar exist..."
+
+      # Stop init services.
+      ECHOL "### stop init services..."
+      for SVCRUNNING in $(getprop | ${GREP} -E '^\[init\.svc\..*\]: \[running\]')
+      do
+        SVCNAME=$(${EXPR} ${SVCRUNNING} : '\[init\.svc\.\(.*\)\]:.*')
+        EXECL stop ${SVCNAME}
+      done
+
+      # Initialize system clock.
+      ECHOL "### set timezone..."
+      EXECL export TZ="$(getprop persist.sys.timezone)"
+      ECHOL "### start time_daemon..."
+      /system/bin/time_daemon &
+      EXECL ${SLEEP} 3
+      ECHOL "### kill time_daemon..."
+      EXECL ${PKILL} -f $(${PS} | ${GREP} time_daemon | ${GREP} -v grep | ${AWK} -F' ' '{print $1}')
+
+      ## Kill remaining processes
+      for RUNNINGPRC in $(${PS} | ${GREP} /system/bin | ${GREP} -v grep | ${GREP} -v taimport | ${AWK} '{print $1}' )
+      do
+        EXECL ${PKILL} -f ${RUNNINGPRC}
+      done
+
+      # remount rootfs to rw.
+      ECHOL "### remount rootfs to rw..."
+      EXECL ${MOUNT} -o remount,rw rootfs /
+
+      # rm symlinks & files.
+      EXECL ${RM} sdcard etc tmp init* uevent* default*
+
+	  # extract recovery.tar
+	  EXECL mkdir /recovery
+	  EXECL cd /recovery
+      EXECL ${TAR} -xf /system/bin/recovery.tar
+
+	  EXECL pwd
+	  EXECL ls -la
+
+	  # umount partitions
+	  ECHOL "Umount partitions and then executing init..."
+	  EXECL ${UMOUNT} -l /acct
+	  EXECL ${UMOUNT} -l /dev/cpuctl
+	  EXECL ${UMOUNT} -l /dev/pts
+	  EXECL ${UMOUNT} -l /mnt/secure
+	  EXECL ${UMOUNT} -l /sys/fs/selinux
+	  EXECL ${UMOUNT} -l /mnt/asec
+	  EXECL ${UMOUNT} -l /mnt/obb
+	  EXECL ${UMOUNT} -l /mnt/idd
+	  EXECL ${UMOUNT} -l /mnt/int_storage
+	  EXECL ${UMOUNT} -l /storage/sdcard0
+	  EXECL ${UMOUNT} -l /data
+	  busybox umount -l /cache
+
+	  export PATH="/sbin:/recovery/sbin"
+	  busybox umount -l /system
+
+      # chroot
+	  busybox chroot /recovery /init
+
+      # reboot when an error occurs in chroot
+      reboot
+    fi
+
+  fi
+
+  ECHOL "### normal boot mode..."
+
+  # Clear work directory
+  if [ -e ${WORKDIR}/keycheck ];then
+    EXECL ${RM} ${WORKDIR}/keycheck
+    EXECL ${RM} ${WORKDIR}/keyevent*
+  fi
+
+  exit
+
+fi
+
+exec /system/bin/taimportx property

@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/yuga/proprietary/lib/hw/vendor-lights.default.so:system/lib/hw/vendor-lights.default.so \
     vendor/sony/yuga/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/yuga/proprietary/lib/hw/keystore.qcom.so:system/lib/hw/keystore.qcom.so \
     vendor/sony/yuga/proprietary/lib/libMPU3050.so:system/lib/libMPU3050.so \
     vendor/sony/yuga/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/yuga/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -187,4 +188,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
     vendor/sony/yuga/proprietary/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat \
     vendor/sony/yuga/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
-    vendor/sony/yuga/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat
+    vendor/sony/yuga/proprietary/vendor/camera/product.dat:system/vendor/camera/product.dat \
+    vendor/sony/yuga/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/sony/yuga/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/sony/yuga/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/sony/yuga/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/sony/yuga/proprietary/vendor/firmware/keymaster/keymaster.flist:system/vendor/firmware/keymaster/keymaster.flist \
+    vendor/sony/yuga/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \

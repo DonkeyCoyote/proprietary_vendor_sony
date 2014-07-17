@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/sony/qcom-common/proprietary-330/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -37,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/sony/qcom-common/proprietary-330/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/sony/qcom-common/proprietary-330/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \

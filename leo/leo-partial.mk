@@ -14,5 +14,19 @@
 
 PRODUCT_PACKAGES += \
 	sensors \
+	touch_module_id_0x74 \
+	touch_module_id_0x75 \
+	touch_module_id_0x76 \
+	touch_module_id_0x78 \
+	touch_module_id_0x7a \
+	touch_module_id_0x7b \
+	touch_module_id_0x7c \
+	touch_module_id_0x7d \
+	touch_module_id_0x7e \
+	touch_module_id_0x7f \
+	touch_module_id_0x80 \
+	touch_module_id_0x81 \
+	touch_module_id_0x95 \
+	touch_module_id_0x96 \
 	fw_bcmdhd \
 	fw_bcmdhd_apsta

@@ -14,8 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(BOARD_VENDOR),sony)
-ifeq ($(filter-out yukon rhine shinano shinano2, $(PRODUCT_PLATFORM)), )
+ifeq ($(PRODUCT_PLATFORM),yukon rhine shinano shinano2)
 include $(CLEAR_VARS)
 LOCAL_MODULE := addrsetup
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -745,5 +744,4 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/soundfx
 include $(BUILD_PREBUILT)
-endif
 endif

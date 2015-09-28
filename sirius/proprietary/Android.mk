@@ -16,13 +16,23 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq (sirius, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
-LOCAL_MODULE := sensors
+LOCAL_MODULE := Handset_cal
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/sensors.qcom
+LOCAL_SRC_FILES := etc/acdbdata/Handset_cal.acdb
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .qcom
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Speaker_cal
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/acdbdata/Speaker_cal.acdb
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .acdb
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/acdbdata
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -491,7 +501,7 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/firmware/fw_bcmdhd.bin
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .bin
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
 include $(BUILD_PREBUILT)
 
@@ -501,7 +511,7 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/firmware/fw_bcmdhd_apsta.bin
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .bin
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
 include $(BUILD_PREBUILT)
 endif

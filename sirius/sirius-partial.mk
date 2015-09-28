@@ -13,7 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	sensors \
+	Handset_cal \
+	Speaker_cal \
 	touch_chip_id_0x75_config_id_0x0241 \
 	touch_chip_id_0x75_config_id_0x0251 \
 	touch_chip_id_0x78_config_id_0x0108 \

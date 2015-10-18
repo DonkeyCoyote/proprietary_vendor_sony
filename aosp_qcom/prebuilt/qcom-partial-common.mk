@@ -68,8 +68,6 @@ PRODUCT_PACKAGES += \
 	librmnetctl \
 	libsensor1 \
 	libsensor_reg \
+	libstlport \
 	libta \
-	libxml \
-	libqcbassboost \
-	libqcreverb \
-	libqcvirt
+	libxml

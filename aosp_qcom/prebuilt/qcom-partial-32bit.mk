@@ -15,6 +15,7 @@
 PRODUCT_PACKAGES += \
 	addrsetup \
 	irsc_util \
+	hvdcp \
 	mlog_qmi_service \
 	netmgrd \
 	qmuxd \

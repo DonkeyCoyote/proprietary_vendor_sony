@@ -1,24 +1,9 @@
-# proprietary_vendor_sony
-##sony blobs
+# Sony blobs
+## proprietary_vendor_sony
 
-Honami - Xperia Z1
-
-Leo - Xperia Z3
-
-Mint - Xperia T
-
-Odin - Xperia ZL
-
-Pollux - Xperia Tablet Z LTE
-
-Pollux Windy - Xperia Tablet Z WiFi
-
-Taoshan - Xperia L
-
-Togari - Xperia Z Ultra
-
-Togari_GPE - Xperia Z Ultra GPE
-
-Tsubasa - Xperia V
-
-Yuga - Xperia Z
+* aries - Sony Xperia Z3 compact
+* leo - Sony Xperia Z3
+* karin - Sony Xperia Z4 Tablet
+* odin - Sony Xperia ZL
+* sirius - Sony Xperia Z2
+* yuga - Sony Xperia Z

@@ -33,43 +33,4 @@ PRODUCT_PACKAGES += \
 	cpp_firmware_v1_6_0 \
 	cpp_firmware_v1_8_0 \
 	leia_pfp_470 \
-	leia_pm4_470 \
-	libQSEEComAPI \
-	libacdb-fts \
-	libacdbloader \
-	libacdbmapper \
-	libacdbrtac \
-	libadiertac \
-	libaudcal \
-	libaudioalsa \
-	libconfigdb \
-	libdiag \
-	libdrmfs \
-	libdsi_netctrl \
-	libdsutils \
-	libidl \
-	libloc_api_v02 \
-	libloc_ds_api \
-	libmdmdetect \
-	libmiscta \
-	libnetmgr \
-	libperipheral_client \
-	libqcci_legacy \
-	libqdi \
-	libqdp \
-	libqmi \
-	libqmi_cci \
-	libqmi_client_qmux \
-	libqmi_common_so \
-	libqmi_csi \
-	libqmi_encdec \
-	libqmiservices \
-	libril-qc-qmi-1 \
-	librmnetctl \
-	libsensor1 \
-	libsensor_reg \
-	libta \
-	libxml \
-	libqcbassboost \
-	libqcreverb \
-	libqcvirt
+	leia_pm4_470

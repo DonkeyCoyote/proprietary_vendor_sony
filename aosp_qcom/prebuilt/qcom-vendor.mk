@@ -1,5 +1,6 @@
-$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-32bit.mk)
-$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-64bit.mk)
+$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-32bit-common.mk)
+$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-64bit-common.mk)
+$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-camera.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-common.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-adreno-a3xx.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-adreno-a4xx.mk)
@@ -34,19 +35,20 @@ PRODUCT_PACKAGES += \
         libqmi_encdec \
         libqmiservices \
         librmnetctl \
-        libsensor1 \
-        linbsensor_reg  \
-        sensors.msm8994 \
-        sensors.msm8974 \
-        sensors.msm8226 \
-        sensors.qcom \
-        libta \
-        libxml
+	libsensor1 \
+	linbsensor_reg  \
+	sensors.msm8994 \
+	sensors.msm8974 \
+	sensors.msm8226 \
+	sensors.qcom \
+	libta \
+	libdiag \
+	libxml
 
 PRODUCT_PACKAGES += \
         libOmxWmaDec.so \
-        libOmxAmrwbplusDec.so \
-        libOmxWmaDec.so \
+	libOmxAmrwbplusDec.so \
+	libOmxWmaDec.so \
         libacdbloader \
         libacdbmapper \
         libacdbrtac \
@@ -55,3 +57,9 @@ PRODUCT_PACKAGES += \
         libaudcal \
         libaudioalsa
 
+PRODUCT_PACKAGES += \
+	libaudio-resampler \
+	libacdbloader \
+	libacdbmapper \
+	libaudcal \
+	libaudioalsa

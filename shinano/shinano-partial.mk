@@ -193,19 +193,25 @@ PRODUCT_PACKAGES += \
 	libmdmdetect \
 	libmmcamera2_c2d_module \
 	libmmcamera2_cpp_module \
+	libmmcamera2_frame_algorithm \
 	libmmcamera2_iface_modules \
 	libmmcamera2_imglib_modules \
+	libmmcamera2_is \
 	libmmcamera2_isp_modules \
 	libmmcamera2_pp_buf_mgr \
 	libmmcamera2_pproc_modules \
+	libmmcamera2_q3a_core \
 	libmmcamera2_sensor_debug \
 	libmmcamera2_sensor_modules \
+	libmmcamera2_stats_algorithm \
 	libmmcamera2_stats_modules \
 	libmmcamera2_vpe_module \
 	libmmcamera2_wnr_module \
+	libmmcamera_cac2_lib \
 	libmmcamera_eeprom_util \
 	libmmcamera_eztune_module \
 	libmmcamera_faceproc \
+	libmmcamera_hdr_gb_lib \
 	libmmcamera_imglib \
 	libmmcamera_imx132 \
 	libmmcamera_imx134 \
@@ -247,6 +253,8 @@ PRODUCT_PACKAGES += \
 	libmmcamera_isp_sub_module \
 	libmmcamera_isp_wb40 \
 	libmmcamera_ppbase_module \
+	libmmcamera_tintless_algo \
+	libmmcamera_tintless_bg_pca_algo \
 	libmmcamera_tuning \
 	libmmjpeg \
 	libmmqjpeg_codec \

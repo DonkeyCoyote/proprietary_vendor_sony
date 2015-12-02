@@ -14,8 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(SONY_AOSP), true)
-ifeq ($(filter-out kanuti kitakami, $(PRODUCT_PLATFORM)), )
+ifneq ($(filter kanuti kitakami, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := eglSubDriverAndroid
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -434,7 +433,6 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := librs_adreno
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -461,5 +459,5 @@ ifneq ( ,$(filter $(PRODUCT_PLATFORM),kanuti kitakami))
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 endif
-endif
+
 

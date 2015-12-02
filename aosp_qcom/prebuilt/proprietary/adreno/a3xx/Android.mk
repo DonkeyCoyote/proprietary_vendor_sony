@@ -14,8 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(SONY_AOSP), true)
-ifeq ($(filter-out yukon rhine shinano shinano2, $(PRODUCT_PLATFORM)), )
+ifneq ($(filter yukon rhine shinano shinano2, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := eglsubAndroid
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -213,5 +212,4 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
-endif
 endif

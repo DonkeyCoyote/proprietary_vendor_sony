@@ -14,7 +14,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(SONY_AOSP), true)
 ifeq ($(filter-out yukon rhine shinano shinano2 kitakami kanuti, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := Signedrompatch_v20
@@ -246,5 +245,4 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
-endif
 endif

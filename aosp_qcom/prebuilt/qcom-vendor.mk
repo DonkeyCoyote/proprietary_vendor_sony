@@ -1,5 +1,6 @@
-$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-32bit.mk)
-$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-64bit.mk)
+$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-32bit-common.mk)
+$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-64bit-common.mk)
+$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-camera.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-common.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-adreno-a3xx.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-adreno-a4xx.mk)
@@ -55,3 +56,9 @@ PRODUCT_PACKAGES += \
         libaudcal \
         libaudioalsa
 
+PRODUCT_PACKAGES += \
+        libaudio-resampler \
+        libacdbloader \
+        libacdbmapper \
+        libaudcal \
+        libaudioalsa

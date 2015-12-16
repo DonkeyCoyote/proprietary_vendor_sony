@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
 	venus_b04 \
 	venus_mbn \
 	venus_mdt \
+	hvdcp \
 	irsc_util \
 	mlog_qmi_service \
 	mm-qcamera-daemon \

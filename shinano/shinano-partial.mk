@@ -50,6 +50,7 @@ PRODUCT_PACKAGES += \
 	venus_b04 \
 	venus_mbn \
 	venus_mdt \
+	hvdcp \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \

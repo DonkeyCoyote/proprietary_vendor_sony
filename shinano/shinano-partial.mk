@@ -51,6 +51,7 @@ PRODUCT_PACKAGES += \
 	venus_mbn \
 	venus_mdt \
 	hvdcp \
+	qseecomd \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \
@@ -59,4 +60,5 @@ PRODUCT_PACKAGES += \
 	libpn547_fw \
 	sensors.msm8974 \
 	libadsprpc \
-	libbtnv
+	libbtnv \
+	libdrmtime

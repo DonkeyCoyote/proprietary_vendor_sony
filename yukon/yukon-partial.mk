@@ -44,7 +44,6 @@ PRODUCT_PACKAGES += \
 	WCNSS_qcom_cfg \
 	WCNSS_qcom_wlan_nv \
 	hci_qcomm_init \
-	wcnss_service \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \

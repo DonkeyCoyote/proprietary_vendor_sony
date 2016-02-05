@@ -13,20 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	adsp_b00 \
-	adsp_b01 \
-	adsp_b02 \
-	adsp_b03 \
-	adsp_b04 \
-	adsp_b05 \
-	adsp_b06 \
-	adsp_b07 \
-	adsp_b08 \
-	adsp_b09 \
-	adsp_b10 \
-	adsp_b11 \
-	adsp_b12 \
-	adsp_mdt \
 	mba_b00 \
 	mba_mdt \
 	tzhdcp_b00 \

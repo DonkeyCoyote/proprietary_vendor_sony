@@ -64,7 +64,4 @@ PRODUCT_PACKAGES += \
 	venus_b03 \
 	venus_b04 \
 	venus_mdt \
-	libpn547_fw \
-	sensors_msm8994 \
-	sensors_oem \
-	libadsprpc \
+	libpn547_fw

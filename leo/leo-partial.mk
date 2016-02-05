@@ -15,6 +15,20 @@
 PRODUCT_PACKAGES += \
 	Handset_cal \
 	Speaker_cal \
+	adsp_b00 \
+	adsp_b01 \
+	adsp_b02 \
+	adsp_b03 \
+	adsp_b04 \
+	adsp_b05 \
+	adsp_b06 \
+	adsp_b07 \
+	adsp_b08 \
+	adsp_b09 \
+	adsp_b10 \
+	adsp_b11 \
+	adsp_b12 \
+	adsp_mdt \
 	touch_module_id_0x74 \
 	touch_module_id_0x75 \
 	touch_module_id_0x76 \

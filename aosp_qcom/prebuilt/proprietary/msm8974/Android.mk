@@ -15,6 +15,19 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(SONY_AOSP), true)
+ifneq ($(filter castor castor_windy scorpion scorpion_windy togari, $(TARGET_DEVICE)), )
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmmcamera_imx134
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib/libmmcamera_imx134.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
+include $(BUILD_PREBUILT)
+endif
+
 ifneq ($(filter rhine shinano shinano2, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := irsc_util
@@ -1681,17 +1694,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libmmcamera_imx132
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/libmmcamera_imx132.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera_imx134
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libmmcamera_imx134.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

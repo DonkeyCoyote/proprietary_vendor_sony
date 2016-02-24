@@ -29,4 +29,6 @@ PRODUCT_PACKAGES += \
 	touch_module_id_0x5b \
 	touch_module_id_0x5c \
 	touch_module_id_0x5e \
-	touch_module_id_0x5f
+	touch_module_id_0x5f \
+	libmmcamera_imx132 \
+	libmmcamera_imx200

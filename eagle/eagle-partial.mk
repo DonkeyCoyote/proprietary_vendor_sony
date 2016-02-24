@@ -15,5 +15,5 @@
 PRODUCT_PACKAGES += \
 	btnvtool \
 	libpn547_fw \
-	sensors.msm8226 \
+	sensors.eagle \
 	libyasalgo

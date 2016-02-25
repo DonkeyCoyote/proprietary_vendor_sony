@@ -16,10 +16,12 @@ PRODUCT_PACKAGES += \
 	irsc_util \
 	mlog_qmi_service \
 	mm-qcamera-daemon \
+	msm_irqbalance \
 	netmgrd \
 	pm-proxy \
 	pm-service \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	sensors \
@@ -45,16 +47,6 @@ PRODUCT_PACKAGES += \
 	libaudcal \
 	libaudioalsa \
 	libchromaflash \
-	libchromatix_imx132_common \
-	libchromatix_imx132_cpp_liveshot \
-	libchromatix_imx132_cpp_preview \
-	libchromatix_imx132_cpp_snapshot \
-	libchromatix_imx132_cpp_video \
-	libchromatix_imx132_default_video \
-	libchromatix_imx132_liveshot \
-	libchromatix_imx132_postproc \
-	libchromatix_imx132_preview \
-	libchromatix_imx132_snapshot \
 	libchromatix_imx134_common \
 	libchromatix_imx134_cpp_hfr_120 \
 	libchromatix_imx134_cpp_hfr_60 \
@@ -164,7 +156,6 @@ PRODUCT_PACKAGES += \
 	libmmcamera_faceproc \
 	libmmcamera_hdr_gb_lib \
 	libmmcamera_imglib \
-	libmmcamera_imx132 \
 	libmmcamera_imx134 \
 	libmmcamera_imx200 \
 	libmmcamera_imx241 \
@@ -246,57 +237,17 @@ PRODUCT_PACKAGES += \
 	libqomx_jpegenc \
 	libqomx_jpegenc_pipe \
 	libril-qc-qmi-1 \
+	libril-qc-qmi-2 \
 	libril-qcril-hook-oem \
+	librpmb \
 	libseemore \
 	libsensor1 \
 	libsensor_reg \
 	libsmemlog \
+	libssd \
 	libsystem_health_mon \
 	libta \
 	libtime_genoff \
 	libtrueportrait \
 	libubifocus \
-	libxml \
-	sensors.msm8994 \
-	libQSEEComAPI \
-	libacdb-fts \
-	libacdbloader \
-	libacdbmapper \
-	libacdbrtac \
-	libadiertac \
-	libadsprpc \
-	libaudcal \
-	libaudioalsa \
-	libconfigdb \
-	libdiag \
-	libdrmfs \
-	libdsi_netctrl \
-	libdsutils \
-	libidl \
-	libloc_api_v02 \
-	libloc_ds_api \
-	libmdmdetect \
-	libmiscta \
-	libmmcamera2_sensor_debug \
-	libnetmgr \
-	libperipheral_client \
-	libqcci_legacy \
-	libqdi \
-	libqdp \
-	libqmi \
-	libqmi_cci \
-	libqmi_client_helper \
-	libqmi_client_qmux \
-	libqmi_common_so \
-	libqmi_csi \
-	libqmi_encdec \
-	libqmiservices \
-	libril-qc-qmi-1 \
-	libril-qcril-hook-oem \
-	libsensor1 \
-	libsensor_reg \
-	libsmemlog \
-	libsystem_health_mon \
-	libta \
-	libtime_genoff \
 	libxml

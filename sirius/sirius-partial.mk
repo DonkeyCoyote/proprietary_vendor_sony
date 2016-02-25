@@ -76,4 +76,6 @@ PRODUCT_PACKAGES += \
 	touch_chip_id_0x78_config_id_0x0681 \
 	touch_chip_id_0x78_config_id_0x0689 \
 	fw_bcmdhd \
-	fw_bcmdhd_apsta
+	fw_bcmdhd_apsta \
+	libmmcamera_imx132 \
+	libmmcamera_imx200

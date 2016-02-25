@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
 	pm-proxy \
 	pm-service \
 	qmuxd \
+	qseecomd \
 	rmt_storage \
 	sct_service \
 	sensors \
@@ -37,9 +38,6 @@ PRODUCT_PACKAGES += \
 	libactuator_bu64296gwx \
 	libactuator_bu64296gwx_camcorder \
 	libactuator_bu64296gwx_camera \
-	libactuator_bu64747gwz \
-	libactuator_bu64747gwz_camcorder \
-	libactuator_bu64747gwz_camera \
 	libadiertac \
 	libadsprpc \
 	libaudcal \
@@ -95,38 +93,6 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx200_snapshot_hdr \
 	libchromatix_imx200_video_4k \
 	libchromatix_imx200_video_hdr \
-	libchromatix_imx241_common \
-	libchromatix_imx241_cpp_liveshot \
-	libchromatix_imx241_cpp_preview \
-	libchromatix_imx241_cpp_snapshot \
-	libchromatix_imx241_cpp_video \
-	libchromatix_imx241_default_video \
-	libchromatix_imx241_liveshot \
-	libchromatix_imx241_postproc \
-	libchromatix_imx241_preview \
-	libchromatix_imx241_snapshot \
-	libchromatix_imx300_common \
-	libchromatix_imx300_cpp_hfr_120 \
-	libchromatix_imx300_cpp_hfr_60 \
-	libchromatix_imx300_cpp_hfr_90 \
-	libchromatix_imx300_cpp_liveshot \
-	libchromatix_imx300_cpp_preview \
-	libchromatix_imx300_cpp_snapshot \
-	libchromatix_imx300_cpp_snapshot_hdr \
-	libchromatix_imx300_cpp_video \
-	libchromatix_imx300_cpp_video_4k \
-	libchromatix_imx300_cpp_video_hdr \
-	libchromatix_imx300_default_video \
-	libchromatix_imx300_hfr_120 \
-	libchromatix_imx300_hfr_60 \
-	libchromatix_imx300_hfr_90 \
-	libchromatix_imx300_liveshot \
-	libchromatix_imx300_postproc \
-	libchromatix_imx300_preview \
-	libchromatix_imx300_snapshot \
-	libchromatix_imx300_snapshot_hdr \
-	libchromatix_imx300_video_4k \
-	libchromatix_imx300_video_hdr \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
@@ -164,11 +130,6 @@ PRODUCT_PACKAGES += \
 	libmmcamera_faceproc \
 	libmmcamera_hdr_gb_lib \
 	libmmcamera_imglib \
-	libmmcamera_imx132 \
-	libmmcamera_imx134 \
-	libmmcamera_imx200 \
-	libmmcamera_imx241 \
-	libmmcamera_imx300 \
 	libmmcamera_isp_abf40 \
 	libmmcamera_isp_bcc40 \
 	libmmcamera_isp_be_stats44 \
@@ -236,11 +197,14 @@ PRODUCT_PACKAGES += \
 	libqomx_jpegenc \
 	libqomx_jpegenc_pipe \
 	libril-qc-qmi-1 \
+	libril-qc-qmi-2 \
 	libril-qcril-hook-oem \
+	librpmb \
 	libseemore \
 	libsensor1 \
 	libsensor_reg \
 	libsmemlog \
+	libssd \
 	libsystem_health_mon \
 	libta \
 	libtime_genoff \

@@ -34,32 +34,44 @@ PRODUCT_PACKAGES += \
 	libactuator_bu64291gwz \
 	libactuator_bu64291gwz_camcorder \
 	libactuator_bu64291gwz_camera \
+	libactuator_dw9714 \
+	libactuator_dw9714_camcorder \
+	libactuator_dw9714_camera \
 	libadiertac \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \
 	libchromaflash \
 	libchromatix_imx134_common \
-	libchromatix_imx134_cpp_hfr_120 \
-	libchromatix_imx134_cpp_hfr_60 \
-	libchromatix_imx134_cpp_hfr_90 \
 	libchromatix_imx134_cpp_liveshot \
 	libchromatix_imx134_cpp_preview \
 	libchromatix_imx134_cpp_snapshot \
 	libchromatix_imx134_cpp_video \
-	libchromatix_imx134_cpp_video_hd \
 	libchromatix_imx134_default_video \
-	libchromatix_imx134_hfr_120 \
-	libchromatix_imx134_hfr_60 \
-	libchromatix_imx134_hfr_90 \
 	libchromatix_imx134_liveshot \
 	libchromatix_imx134_postproc \
 	libchromatix_imx134_preview \
 	libchromatix_imx134_snapshot \
-	libchromatix_imx134_video_hd \
+	libchromatix_imx135_common \
+	libchromatix_imx135_cpp_hfr_120 \
+	libchromatix_imx135_cpp_hfr_60 \
+	libchromatix_imx135_cpp_hfr_90 \
+	libchromatix_imx135_cpp_liveshot \
+	libchromatix_imx135_cpp_preview \
+	libchromatix_imx135_cpp_snapshot \
+	libchromatix_imx135_cpp_video \
+	libchromatix_imx135_default_video \
+	libchromatix_imx135_hfr_120 \
+	libchromatix_imx135_hfr_60 \
+	libchromatix_imx135_hfr_90 \
+	libchromatix_imx135_liveshot \
+	libchromatix_imx135_postproc \
+	libchromatix_imx135_preview \
+	libchromatix_imx135_snapshot \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
+	libdrmtime \
 	libdsi_netctrl \
 	libdsutils \
 	libfastcvadsp_stub \
@@ -95,6 +107,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera_hdr_gb_lib \
 	libmmcamera_imglib \
 	libmmcamera_imx134 \
+	libmmcamera_imx135 \
 	libmmcamera_isp_chroma_enhan40 \
 	libmmcamera_isp_chroma_suppress40 \
 	libmmcamera_isp_clamp_encoder40 \
@@ -153,12 +166,10 @@ PRODUCT_PACKAGES += \
 	libril-qc-qmi-1 \
 	libril-qc-qmi-2 \
 	libril-qcril-hook-oem \
-	librpmb \
 	libseemore \
 	libsensor1 \
 	libsensor_reg \
 	libsmemlog \
-	libssd \
 	libsystem_health_mon \
 	libta \
 	libtime_genoff \

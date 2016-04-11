@@ -27,8 +27,13 @@ PRODUCT_PACKAGES += \
 	sensors \
 	ta_qmi_service \
 	tad_static \
+	gatekeeper.msm8994 \
+	keystore.msm8994 \
 	sensors.msm8994 \
+	lib-sec-disp \
 	libQSEEComAPI \
+	libSecureUILib \
+	libStDrvInt \
 	libacdb-fts \
 	libacdbloader \
 	libacdbmapper \
@@ -36,57 +41,40 @@ PRODUCT_PACKAGES += \
 	libactuator_bu64291gwz \
 	libactuator_bu64291gwz_camcorder \
 	libactuator_bu64291gwz_camera \
-	libactuator_bu64296gwx \
-	libactuator_bu64296gwx_camcorder \
-	libactuator_bu64296gwx_camera \
+	libactuator_bu64295g \
+	libactuator_bu64295g_camcorder \
+	libactuator_bu64295g_camera \
 	libactuator_bu64747gwz \
 	libactuator_bu64747gwz_camcorder \
 	libactuator_bu64747gwz_camera \
+	libactuator_dw9719 \
+	libactuator_dw9719_camcorder \
+	libactuator_dw9719_camera \
 	libadiertac \
 	libadsprpc \
 	libaudcal \
 	libaudioalsa \
 	libchromaflash \
 	libchromatix_imx134_common \
-	libchromatix_imx134_cpp_hfr_120 \
-	libchromatix_imx134_cpp_hfr_60 \
-	libchromatix_imx134_cpp_hfr_90 \
 	libchromatix_imx134_cpp_liveshot \
 	libchromatix_imx134_cpp_preview \
 	libchromatix_imx134_cpp_snapshot \
 	libchromatix_imx134_cpp_video \
-	libchromatix_imx134_cpp_video_hd \
 	libchromatix_imx134_default_video \
-	libchromatix_imx134_hfr_120 \
-	libchromatix_imx134_hfr_60 \
-	libchromatix_imx134_hfr_90 \
 	libchromatix_imx134_liveshot \
 	libchromatix_imx134_postproc \
 	libchromatix_imx134_preview \
 	libchromatix_imx134_snapshot \
-	libchromatix_imx134_video_hd \
 	libchromatix_imx200_common \
-	libchromatix_imx200_cpp_hfr_120 \
-	libchromatix_imx200_cpp_hfr_60 \
-	libchromatix_imx200_cpp_hfr_90 \
 	libchromatix_imx200_cpp_liveshot \
 	libchromatix_imx200_cpp_preview \
 	libchromatix_imx200_cpp_snapshot \
-	libchromatix_imx200_cpp_snapshot_hdr \
 	libchromatix_imx200_cpp_video \
-	libchromatix_imx200_cpp_video_4k \
-	libchromatix_imx200_cpp_video_hdr \
 	libchromatix_imx200_default_video \
-	libchromatix_imx200_hfr_120 \
-	libchromatix_imx200_hfr_60 \
-	libchromatix_imx200_hfr_90 \
 	libchromatix_imx200_liveshot \
 	libchromatix_imx200_postproc \
 	libchromatix_imx200_preview \
 	libchromatix_imx200_snapshot \
-	libchromatix_imx200_snapshot_hdr \
-	libchromatix_imx200_video_4k \
-	libchromatix_imx200_video_hdr \
 	libchromatix_imx241_common \
 	libchromatix_imx241_cpp_liveshot \
 	libchromatix_imx241_cpp_preview \
@@ -98,30 +86,19 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx241_preview \
 	libchromatix_imx241_snapshot \
 	libchromatix_imx300_common \
-	libchromatix_imx300_cpp_hfr_120 \
-	libchromatix_imx300_cpp_hfr_60 \
-	libchromatix_imx300_cpp_hfr_90 \
 	libchromatix_imx300_cpp_liveshot \
 	libchromatix_imx300_cpp_preview \
 	libchromatix_imx300_cpp_snapshot \
-	libchromatix_imx300_cpp_snapshot_hdr \
 	libchromatix_imx300_cpp_video \
-	libchromatix_imx300_cpp_video_4k \
-	libchromatix_imx300_cpp_video_hdr \
 	libchromatix_imx300_default_video \
-	libchromatix_imx300_hfr_120 \
-	libchromatix_imx300_hfr_60 \
-	libchromatix_imx300_hfr_90 \
 	libchromatix_imx300_liveshot \
 	libchromatix_imx300_postproc \
 	libchromatix_imx300_preview \
 	libchromatix_imx300_snapshot \
-	libchromatix_imx300_snapshot_hdr \
-	libchromatix_imx300_video_4k \
-	libchromatix_imx300_video_hdr \
 	libconfigdb \
 	libdiag \
 	libdrmfs \
+	libdrmtime \
 	libdsi_netctrl \
 	libdsutils \
 	libfastcvadsp_stub \
@@ -157,7 +134,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera_hdr_gb_lib \
 	libmmcamera_imglib \
 	libmmcamera_imx134 \
-	libmmcamera_imx200 \
+	libmmcamera_imx200b \
 	libmmcamera_imx241 \
 	libmmcamera_imx300 \
 	libmmcamera_isp_abf44 \
@@ -240,6 +217,9 @@ PRODUCT_PACKAGES += \
 	libril-qc-qmi-2 \
 	libril-qcril-hook-oem \
 	librpmb \
+	libsecureui \
+	libsecureui_svcsock \
+	libsecureuisvc_jni \
 	libseemore \
 	libsensor1 \
 	libsensor_reg \
@@ -250,4 +230,4 @@ PRODUCT_PACKAGES += \
 	libtime_genoff \
 	libtrueportrait \
 	libubifocus \
-	libxml
+	libxml \

@@ -13,8 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	Handset_cal \
-	Speaker_cal \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \

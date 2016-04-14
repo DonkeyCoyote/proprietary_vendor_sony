@@ -13,8 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	Handset_cal \
-	Speaker_cal \
 	touch_fusion \
 	touch_fusion_panel_id_0x0000 \
 	touch_fusion_panel_id_0x0700 \

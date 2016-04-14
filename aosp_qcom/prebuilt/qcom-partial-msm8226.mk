@@ -27,10 +27,6 @@ PRODUCT_PACKAGES += \
 	ta_qmi_service \
 	tad_static \
 	libQSEEComAPI \
-	libacdb-fts \
-	libacdbloader \
-	libacdbmapper \
-	libacdbrtac \
 	libactuator_bu64291gwz \
 	libactuator_bu64291gwz_camcorder \
 	libactuator_bu64291gwz_camera \

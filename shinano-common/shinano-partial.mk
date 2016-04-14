@@ -13,11 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	Bluetooth_cal \
-	General_cal \
-	Global_cal \
-	Hdmi_cal \
-	Headset_cal \
 	a330_pfp \
 	a330_pm4 \
 	cmnlib_b00 \

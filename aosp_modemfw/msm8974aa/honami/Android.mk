@@ -1,4 +1,4 @@
-# Copyright (C) 2015 SuperBenevolent
+# Copyright (C) 2013 Sony Mobile Communication
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ LOCAL_PATH := $(call my-dir)
 ifeq (honami, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b00
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b00
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -28,7 +28,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b01
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b01
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -39,7 +39,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b02
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b02
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -50,7 +50,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b03
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b03
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -61,7 +61,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b04
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b04
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -72,7 +72,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b05
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b05
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -83,7 +83,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b08
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b08
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -94,7 +94,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b11
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b11
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -105,7 +105,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b13
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b13
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -116,7 +116,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b14
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b14
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -127,7 +127,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b15
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b15
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -138,7 +138,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b16
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b16
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -149,7 +149,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b17
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b17
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -160,7 +160,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b18
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b18
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -171,7 +171,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b19
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b19
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -182,7 +182,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b20
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b20
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -193,7 +193,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b21
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b21
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -204,7 +204,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b22
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b22
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -215,7 +215,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b25
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b25
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -226,7 +226,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_b26
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.b26
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem
@@ -237,7 +237,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := modem_mdt
-LOCAL_MODULE_OWNER := SuperBenevolent
+LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/modem.mdt
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := modem

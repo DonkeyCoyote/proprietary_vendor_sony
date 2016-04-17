@@ -30,4 +30,9 @@ PRODUCT_PACKAGES += \
 	touch_fusion_panel_id_0x0717 \
 	touch_fusion_panel_id_0x071B \
 	touch_fusion_panel_id_0x071F \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
 	max11945

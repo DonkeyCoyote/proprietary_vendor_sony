@@ -15,5 +15,113 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq (sumire, $(TARGET_DEVICE))
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_b00
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b00
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .b00
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_b01
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b01
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .b01
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_b02
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b02
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .b02
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_b03
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b03
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .b03
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keymaster_mdt
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.mdt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := keymaster
+LOCAL_MODULE_SUFFIX := .mdt
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_b00
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.b00
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_SUFFIX := .b00
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_b01
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.b01
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_SUFFIX := .b01
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_b02
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.b02
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_SUFFIX := .b02
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_b03
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.b03
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_SUFFIX := .b03
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_mdt
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.mdt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_SUFFIX := .mdt
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
+include $(BUILD_PREBUILT)
 endif

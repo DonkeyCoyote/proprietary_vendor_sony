@@ -13,5 +13,4 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	Handset_cal \
-	Speaker_cal
+	

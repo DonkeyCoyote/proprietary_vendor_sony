@@ -46,10 +46,7 @@ PRODUCT_PACKAGES += \
 	libactuator_dw9719 \
 	libactuator_dw9719_camcorder \
 	libactuator_dw9719_camera \
-	libadiertac \
 	libadsprpc \
-	libaudcal \
-	libaudioalsa \
 	libchromaflash \
 	libchromatix_imx134_common \
 	libchromatix_imx134_cpp_liveshot \
@@ -192,7 +189,6 @@ PRODUCT_PACKAGES += \
 	libmmqjpegdma \
 	libnetmgr \
 	liboemcamera \
-	libomx-dts \
 	liboptizoom \
 	libperipheral_client \
 	libqcci_legacy \
@@ -226,4 +222,4 @@ PRODUCT_PACKAGES += \
 	libtime_genoff \
 	libtrueportrait \
 	libubifocus \
-	libxml \
+	libxml

@@ -72,14 +72,4 @@ PRODUCT_PACKAGES += \
 	venus_b03 \
 	venus_b04 \
 	venus_mdt \
-	keymaster_b00 \
-	keymaster_b01 \
-	keymaster_b02 \
-	keymaster_b03 \
-	keymaster_mdt \
-	libpn547_fw \
-	tzfingerprint_b00 \
-	tzfingerprint_b01 \
-	tzfingerprint_b02 \
-	tzfingerprint_b03 \
-	tzfingerprint_mdt
+	libpn547_fw

@@ -28,7 +28,6 @@ PRODUCT_PACKAGES += \
 	ta_qmi_service \
 	tad_static \
 	gatekeeper.msm8994 \
-	keystore.msm8994 \
 	sensors.msm8994 \
 	lib-sec-disp \
 	libQSEEComAPI \
@@ -127,6 +126,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera_hdr_gb_lib \
 	libmmcamera_imglib \
 	libmmcamera_imx134 \
+	libmmcamera_imx134a \
 	libmmcamera_imx200b \
 	libmmcamera_imx241 \
 	libmmcamera_imx300 \

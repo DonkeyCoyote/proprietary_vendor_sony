@@ -14,6 +14,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(SONY_AOSP), true)
 ifeq (honami, $(TARGET_DEVICE))
 
+endif
 endif

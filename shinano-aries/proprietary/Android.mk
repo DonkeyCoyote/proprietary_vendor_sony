@@ -14,6 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(SONY_AOSP), true)
 ifeq (aries, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := adsp_b00
@@ -188,4 +189,5 @@ LOCAL_MODULE_SUFFIX := .bin
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
 include $(BUILD_PREBUILT)
+endif
 endif

@@ -14,6 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(SONY_AOSP), true)
 ifeq (ivy, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := keymaster_b00
@@ -69,4 +70,5 @@ LOCAL_MODULE_SUFFIX := .mdt
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
 include $(BUILD_PREBUILT)
+endif
 endif

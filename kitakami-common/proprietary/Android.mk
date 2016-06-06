@@ -14,6 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(SONY_AOSP), true)
 ifeq ($(PRODUCT_PLATFORM),kitakami)
 include $(CLEAR_VARS)
 LOCAL_MODULE := a420_pfp
@@ -670,4 +671,5 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
 include $(BUILD_PREBUILT)
+endif
 endif

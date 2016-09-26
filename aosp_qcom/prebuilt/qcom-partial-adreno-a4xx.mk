@@ -27,6 +27,8 @@ PRODUCT_PACKAGES += \
 	libadreno_utils \
 	libc2d30-a3xx \
 	libc2d30-a4xx \
+	libc2d30-a5xx \
+	libc2d30_bltlib \
 	libgsl \
 	libllvm-glnext \
 	libllvm-qcom \
@@ -47,6 +49,8 @@ PRODUCT_PACKAGES += \
 	libadreno_utils \
 	libc2d30-a3xx \
 	libc2d30-a4xx \
+	libc2d30-a5xx \
+	libc2d30_bltlib \
 	libgsl \
 	libllvm-glnext \
 	libllvm-qcom \

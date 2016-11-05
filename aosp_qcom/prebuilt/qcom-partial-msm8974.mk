@@ -139,8 +139,8 @@ PRODUCT_PACKAGES += \
 	libmmcamera_isp_mce40 \
 	libmmcamera_isp_mesh_rolloff40 \
 	libmmcamera_isp_rs_stats44 \
-	libmmcamera_isp_scaler_encoder40 \
-	libmmcamera_isp_scaler_viewfinder40 \
+	libmmcamera_isp_scaler_encoder44 \
+	libmmcamera_isp_scaler_viewfinder44 \
 	libmmcamera_isp_sce40 \
 	libmmcamera_isp_sub_module \
 	libmmcamera_isp_wb40 \

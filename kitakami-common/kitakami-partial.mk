@@ -71,5 +71,4 @@ PRODUCT_PACKAGES += \
 	venus_b02 \
 	venus_b03 \
 	venus_b04 \
-	venus_mdt \
-	libpn547_fw
+	venus_mdt

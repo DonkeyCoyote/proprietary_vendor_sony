@@ -44,6 +44,18 @@ PRODUCT_PACKAGES += \
 	libchromatix_imx214_preview \
 	libchromatix_imx214_snapshot \
 	libchromatix_imx214_video \
+	libchromatix_imx241_common \
+	libchromatix_imx241_cpp_liveshot \
+	libchromatix_imx241_cpp_preview \
+	libchromatix_imx241_cpp_snapshot \
+	libchromatix_imx241_cpp_video \
+	libchromatix_imx241_default_preview \
+	libchromatix_imx241_default_video \
+	libchromatix_imx241_liveshot \
+	libchromatix_imx241_postproc \
+	libchromatix_imx241_preview \
+	libchromatix_imx241_snapshot \
+	libchromatix_imx241_video \
 	libchromatix_imx300_common \
 	libchromatix_imx300_cpp_liveshot \
 	libchromatix_imx300_cpp_preview \
@@ -91,7 +103,9 @@ PRODUCT_PACKAGES += \
 	libmmcamera_faceproc \
 	libmmcamera_imglib \
 	libmmcamera_imx214 \
-	libmmcamera_imx300 \
+	libmmcamera_imx241 \
+	libmmcamera_imx300h \
+	libmmcamera_imx300l \
 	libmmcamera_isp_abcc44 \
 	libmmcamera_isp_abf40 \
 	libmmcamera_isp_bcc40 \

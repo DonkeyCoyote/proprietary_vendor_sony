@@ -13,6 +13,11 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
+	keymaster_b00 \
+	keymaster_b01 \
+	keymaster_b02 \
+	keymaster_b03 \
+	keymaster_mdt \
 	tzfingerprint_b00 \
 	tzfingerprint_b01 \
 	tzfingerprint_b02 \

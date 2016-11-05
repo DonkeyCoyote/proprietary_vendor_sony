@@ -58,5 +58,4 @@ PRODUCT_PACKAGES += \
 	keymaster_b01 \
 	keymaster_b02 \
 	keymaster_b03 \
-	keymaster_mdt \
-	libpn547_fw
+	keymaster_mdt

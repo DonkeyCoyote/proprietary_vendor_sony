@@ -46,16 +46,6 @@ PRODUCT_PACKAGES += \
 	tzsuntory_b02 \
 	tzsuntory_b03 \
 	tzsuntory_mdt \
-	tztestcred_b00 \
-	tztestcred_b01 \
-	tztestcred_b02 \
-	tztestcred_b03 \
-	tztestcred_mdt \
-	tztestsun_b00 \
-	tztestsun_b01 \
-	tztestsun_b02 \
-	tztestsun_b03 \
-	tztestsun_mdt \
 	tztpm_b00 \
 	tztpm_b01 \
 	tztpm_b02 \
@@ -83,5 +73,4 @@ PRODUCT_PACKAGES += \
 	venus_b02 \
 	venus_b03 \
 	venus_b04 \
-	venus_mdt \
-	libpn547_fw
+	venus_mdt

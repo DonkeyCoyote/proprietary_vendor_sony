@@ -1403,9 +1403,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera_isp_scaler_encoder40
+LOCAL_MODULE := libmmcamera_isp_scaler_encoder44
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libmmcamera_isp_scaler_encoder40.so
+LOCAL_SRC_FILES := vendor/lib/libmmcamera_isp_scaler_encoder44.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1414,9 +1414,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera_isp_scaler_viewfinder40
+LOCAL_MODULE := libmmcamera_isp_scaler_viewfinder44
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libmmcamera_isp_scaler_viewfinder40.so
+LOCAL_SRC_FILES := vendor/lib/libmmcamera_isp_scaler_viewfinder44.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

@@ -34,26 +34,4 @@ PRODUCT_PACKAGES += \
 	libllvm-qcom \
 	libmm-qdcm \
 	librs_adreno \
-	librs_adreno_sha1 \
-	eglSubDriverAndroid \
-	libEGL_adreno \
-	libGLESv1_CM_adreno \
-	libGLESv2_adreno \
-	libQTapGLES \
-	libq3dtools_adreno \
-	libq3dtools_esx \
-	libC2D2 \
-	libCB \
-	libOpenCL \
-	libRSDriver_adreno \
-	libadreno_utils \
-	libc2d30-a3xx \
-	libc2d30-a4xx \
-	libc2d30-a5xx \
-	libc2d30_bltlib \
-	libgsl \
-	libllvm-glnext \
-	libllvm-qcom \
-	libmm-qdcm \
-	librs_adreno \
 	librs_adreno_sha1

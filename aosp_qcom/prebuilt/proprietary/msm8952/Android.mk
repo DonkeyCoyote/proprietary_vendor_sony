@@ -171,17 +171,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := gatekeeper.msm8952
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/hw/gatekeeper.msm8952.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 32
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.msm8952
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib/hw/sensors.msm8952.so
@@ -1007,9 +996,9 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libmmcamera_imx241
+LOCAL_MODULE := libmmcamera_imx241_1
 LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib/libmmcamera_imx241.so
+LOCAL_SRC_FILES := vendor/lib/libmmcamera_imx241_1.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -1813,6 +1802,17 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := gatekeeper.msm8952
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/hw/gatekeeper.msm8952.so
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := keystore.msm8952
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := vendor/lib64/hw/keystore.msm8952.so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES

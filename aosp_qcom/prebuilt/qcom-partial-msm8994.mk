@@ -126,7 +126,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera_imx134b \
 	libmmcamera_imx200a \
 	libmmcamera_imx200b \
-	libmmcamera_imx241 \
+	libmmcamera_imx241_2 \
 	libmmcamera_imx300h \
 	libmmcamera_imx300l \
 	libmmcamera_isp_abf44 \

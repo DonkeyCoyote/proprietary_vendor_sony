@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
 	sensors \
 	ta_qmi_service \
 	tad_static \
-	gatekeeper.msm8952 \
 	sensors.msm8952 \
 	libQSEEComAPI \
 	libactuator_bu64747gwz \
@@ -103,7 +102,7 @@ PRODUCT_PACKAGES += \
 	libmmcamera_faceproc \
 	libmmcamera_imglib \
 	libmmcamera_imx214 \
-	libmmcamera_imx241 \
+	libmmcamera_imx241_1 \
 	libmmcamera_imx300h \
 	libmmcamera_imx300l \
 	libmmcamera_isp_abcc44 \

@@ -1,5 +1,4 @@
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-common.mk)
-$(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-msm8226.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-msm8916.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-msm8952.mk)
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-msm8974.mk)

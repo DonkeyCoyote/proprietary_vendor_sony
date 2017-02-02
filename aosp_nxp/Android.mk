@@ -14,7 +14,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(SONY_AOSP), true)
 ifneq ($(filter shinano, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpn547_fw
@@ -28,7 +27,7 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/
 include $(BUILD_PREBUILT)
 endif
 
-ifneq ($(filter kitakami loire tone, $(PRODUCT_PLATFORM)), )
+ifneq ($(filter kanuti kitakami loire tone, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := libpn547_fw
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -39,5 +38,4 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/
 include $(BUILD_PREBUILT)
-endif
 endif

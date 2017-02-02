@@ -13,8 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	a330_pfp \
-	a330_pm4 \
 	adsp_b00 \
 	adsp_b01 \
 	adsp_b02 \
@@ -34,8 +32,6 @@ PRODUCT_PACKAGES += \
 	cmnlib_b03 \
 	cmnlib_mdt \
 	cpp_firmware_v1_2_0 \
-	mba_b00 \
-	mba_mdt \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \

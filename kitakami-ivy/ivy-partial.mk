@@ -13,8 +13,4 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	keymaster_b00 \
-	keymaster_b01 \
-	keymaster_b02 \
-	keymaster_b03 \
-	keymaster_mdt
+	

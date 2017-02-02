@@ -13,8 +13,6 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-	a330_pfp \
-	a330_pm4 \
 	cmnlib_b00 \
 	cmnlib_b01 \
 	cmnlib_b02 \
@@ -53,7 +51,6 @@ PRODUCT_PACKAGES += \
 	venus_b04 \
 	venus_mbn \
 	venus_mdt \
-	hvdcp \
 	keymaster_b00 \
 	keymaster_b01 \
 	keymaster_b02 \

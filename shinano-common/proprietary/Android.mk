@@ -14,28 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(SONY_AOSP), true)
 ifneq ($(filter shinano,$(PRODUCT_PLATFORM)),)
-include $(CLEAR_VARS)
-LOCAL_MODULE := a330_pfp
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/a330_pfp.fw
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .fw
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := a330_pm4
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/a330_pm4.fw
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .fw
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := cmnlib_b00
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -454,16 +433,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := hvdcp
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := bin/hvdcp
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX :=
-LOCAL_MODULE_CLASS := EXECUTABLES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := keymaster_b00
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/firmware/keymaster/keymaster.b00
@@ -517,5 +486,4 @@ LOCAL_MODULE_SUFFIX := .mdt
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware/keymaster
 include $(BUILD_PREBUILT)
-endif
 endif

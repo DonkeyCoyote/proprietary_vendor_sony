@@ -36,8 +36,6 @@ PRODUCT_PACKAGES += \
 	libdsi_netctrl \
 	libdsutils \
 	libidl \
-	libloc_api_v02 \
-	libloc_ds_api \
 	liblqe \
 	libmdmdetect \
 	libmiscta \

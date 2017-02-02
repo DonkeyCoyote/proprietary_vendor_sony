@@ -14,28 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(SONY_AOSP), true)
 ifeq ($(PRODUCT_PLATFORM),rhine)
-include $(CLEAR_VARS)
-LOCAL_MODULE := a330_pfp
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/a330_pfp.fw
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .fw
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := a330_pm4
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/a330_pm4.fw
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .fw
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := adsp_b00
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -240,28 +219,6 @@ LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/firmware/cpp_firmware_v1_2_0.fw
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .fw
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mba_b00
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mba.b00
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mba
-LOCAL_MODULE_SUFFIX := .b00
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := mba_mdt
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := etc/firmware/mba.mdt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := mba
-LOCAL_MODULE_SUFFIX := .mdt
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
@@ -766,5 +723,4 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib
 include $(BUILD_PREBUILT)
-endif
 endif

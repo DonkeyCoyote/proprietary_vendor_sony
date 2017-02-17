@@ -26,6 +26,4 @@ PRODUCT_PACKAGES += \
 	adsp_b10 \
 	adsp_b11 \
 	adsp_b12 \
-	adsp_mdt \
-	fw_bcmdhd \
-	fw_bcmdhd_apsta
+	adsp_mdt

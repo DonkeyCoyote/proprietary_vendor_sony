@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(SONY_AOSP), true)
-ifneq ($(filter loire, $(PRODUCT_PLATFORM)), )
+ifneq ($(filter loiremoved, $(PRODUCT_PLATFORM)), )
 
 # ---------------------------------------------------------------------------------
 #             Populate ACDB data files to file system for MTP

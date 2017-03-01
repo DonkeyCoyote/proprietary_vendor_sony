@@ -8,4 +8,4 @@ $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-adreno-a4xx.
 $(call inherit-product, vendor/sony/aosp_qcom/prebuilt/qcom-partial-adreno-a5xx.mk)
 $(call inherit-product-if-exists, vendor/sony/aosp_qcom_extras/proprietary.mk)
 $(call inherit-product-if-exists, vendor/sony/aosp_qcom/proprietary/common/build/qcom-packages.mk)
-$(call inherit-product-if-exists, vendor/sony/aosp_qcom/firmware/qcom-modem-firmware.mk)
+$(call inherit-product-if-exists, vendor/sony/aosp_modemfw/qcom-firmware.mk)

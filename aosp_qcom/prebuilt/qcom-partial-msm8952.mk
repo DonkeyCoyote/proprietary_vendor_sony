@@ -175,7 +175,6 @@ PRODUCT_PACKAGES += \
 	libtime_genoff \
 	libxml \
 	gatekeeper.msm8952 \
-	keystore.msm8952 \
 	sensors.msm8952 \
 	libQSEEComAPI \
 	libadsprpc \

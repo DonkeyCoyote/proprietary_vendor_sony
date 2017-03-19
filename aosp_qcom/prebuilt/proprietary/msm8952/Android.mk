@@ -1798,17 +1798,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := keystore.msm8952
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/lib64/hw/keystore.msm8952.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64/hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.msm8952
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := vendor/lib64/hw/sensors.msm8952.so

@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(SONY_AOSP),true)
-ifneq ($(filter loire tone, $(PRODUCT_PLATFORM)), )
+ifneq ($(filter loire, $(PRODUCT_PLATFORM)), )
 include $(CLEAR_VARS)
 LOCAL_MODULE := a530_gpmu
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -696,7 +696,7 @@ LOCAL_MULTILIB := 64
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib64
 include $(BUILD_PREBUILT)
 endif
-ifneq ( ,$(filter $(PRODUCT_PLATFORM),tone loire))
+ifneq ( ,$(filter $(PRODUCT_PLATFORM),loire))
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 endif

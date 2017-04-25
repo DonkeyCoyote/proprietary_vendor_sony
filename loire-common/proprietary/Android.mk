@@ -14,6 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(SONY_AOSP),true)
 ifeq ($(PRODUCT_PLATFORM),loire)
 include $(CLEAR_VARS)
 LOCAL_MODULE := cmnlib_b00
@@ -728,4 +729,5 @@ LOCAL_MODULE_SUFFIX := .mdt
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
+endif
 endif

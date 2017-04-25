@@ -14,6 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(SONY_AOSP),true)
 ifeq (amami, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := sensors.amami
@@ -24,4 +25,5 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/lib/hw
 include $(BUILD_PREBUILT)
+endif
 endif

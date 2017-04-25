@@ -14,6 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(SONY_AOSP),true)
 ifeq (suzu, $(TARGET_DEVICE))
 include $(CLEAR_VARS)
 LOCAL_MODULE := touch_module_id_0x90
@@ -64,4 +65,5 @@ LOCAL_MODULE_SUFFIX := .img
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
+endif
 endif

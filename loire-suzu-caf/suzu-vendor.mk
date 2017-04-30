@@ -540,6 +540,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/ipacm:system/vendor/bin/ipacm \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/keyprovd:system/vendor/bin/keyprovd \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/mlog_qmi_service:system/vendor/bin/mlog_qmi_service \

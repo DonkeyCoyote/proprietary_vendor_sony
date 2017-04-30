@@ -538,6 +538,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/keyprovd:system/vendor/bin/keyprovd \
+    vendor/sony/loire-kugo-caf/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/mlog_qmi_service:system/vendor/bin/mlog_qmi_service \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \

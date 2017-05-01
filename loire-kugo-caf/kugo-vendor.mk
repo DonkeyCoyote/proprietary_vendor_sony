@@ -693,7 +693,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/hw/activity_recognition.msm8952.so:system/vendor/lib64/hw/activity_recognition.msm8952.so \
-    vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/hw/vulkan.msm8952.so:system/vendor/lib64/hw/vulkan.msm8952.so \
@@ -770,7 +769,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/libFidoSuiJNI.so:system/vendor/lib64/libFidoSuiJNI.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
-    vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
@@ -932,7 +930,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/hw/activity_recognition.msm8952.so:system/vendor/lib/hw/activity_recognition.msm8952.so \
-    vendor/sony/loire-kugo-caf/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/hw/vulkan.msm8952.so:system/vendor/lib/hw/vulkan.msm8952.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
@@ -1395,7 +1392,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
-    vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libGPreqcancel.so:system/vendor/lib/libGPreqcancel.so \

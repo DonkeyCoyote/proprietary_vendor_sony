@@ -17,6 +17,7 @@
 PRODUCT_PLATFORM := loire
 
 $(call inherit-product, vendor/sony/aosp_nxp/nxp-vendor.mk)
+$(call inherit-product, vendor/sony/loire-suzu-caf/suzu-partial.mk)
 
 PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -72,6 +73,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/cne/wqeclient/profile1.xml:system/etc/cne/wqeclient/profile1.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/cne/wqeclient/profile2.xml:system/etc/cne/wqeclient/profile2.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/sony/loire-suzu-caf/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/firmware/DE.o.msm8952:system/etc/firmware/DE.o.msm8952 \
     vendor/sony/loire-suzu-caf/proprietary/etc/firmware/DE.o.msm8976:system/etc/firmware/DE.o.msm8976 \
@@ -173,26 +180,28 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-    vendor/sony/loire-suzu-caf/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/sony/loire-suzu-caf/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/sony/loire-suzu-caf/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/sony/loire-suzu-caf/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/sony/loire-suzu-caf/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/sony/loire-suzu-caf/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/sony/loire-suzu-caf/proprietary/lib/camera/libexcal_ckb_service_plugin.so:system/lib/camera/libexcal_ckb_service_plugin.so \
@@ -521,6 +530,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/lib64/libwfdhdcpcp.so:system/lib64/libwfdhdcpcp.so \
     vendor/sony/loire-suzu-caf/proprietary/lib64/libwnndict.so:system/lib64/libwnndict.so \
     vendor/sony/loire-suzu-caf/proprietary/lib64/sensors.finger-pickup.so:system/lib64/sensors.finger-pickup.so \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/apfd:system/vendor/bin/apfd \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/chamomile_provision:system/vendor/bin/chamomile_provision \
@@ -539,7 +549,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/ipacm:system/vendor/bin/ipacm \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
-    vendor/sony/loire-suzu-caf/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/keyprovd:system/vendor/bin/keyprovd \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/mlog_qmi_service:system/vendor/bin/mlog_qmi_service \
@@ -1625,8 +1634,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libmmwfdsrcinterface.so:system/vendor/lib64/libmmwfdsrcinterface.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
-    vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libpreload-me.so:system/vendor/lib64/libpreload-me.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libpoll_cpu_freq.so:system/vendor/lib64/libpoll_cpu_freq.so \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libpreload-me.so:system/vendor/lib64/libpreload-me.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \

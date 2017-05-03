@@ -19,7 +19,6 @@ PRODUCT_PLATFORM := loire
 $(call inherit-product, vendor/sony/aosp_nxp/nxp-vendor.mk)
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/loire-suzu-caf/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \

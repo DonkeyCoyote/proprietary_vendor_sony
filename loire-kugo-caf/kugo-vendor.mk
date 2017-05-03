@@ -17,7 +17,6 @@ PRODUCT_PLATFORM := loire
 $(call inherit-product, vendor/sony/aosp_nxp/nxp-vendor.mk)
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/loire-kugo-caf/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/sony/loire-kugo-caf/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Bluetooth_cal.acdb \
     vendor/sony/loire-kugo-caf/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_General_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_General_cal.acdb \
     vendor/sony/loire-kugo-caf/proprietary/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Global_cal.acdb:system/etc/acdbdata/MTP/msm8952-tomtom-snd-card/MTP_WCD9330_Global_cal.acdb \

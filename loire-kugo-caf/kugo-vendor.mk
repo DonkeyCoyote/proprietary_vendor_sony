@@ -218,7 +218,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libcrashmonitorclient.so:system/lib64/libcrashmonitorclient.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libcrashmonitorjni.so:system/lib64/libcrashmonitorjni.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libcredential-manager-service.so:system/lib64/libcredential-manager-service.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib64/libcryptfs_hw.so:system/lib64/libcryptfs_hw.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libcrypto_fips.so:system/lib64/libcrypto_fips.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libdashplayer.so:system/lib64/libdashplayer.so \
@@ -266,7 +265,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libidd.so:system/lib64/libidd.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libiddjni.so:system/lib64/libiddjni.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libimageprocessorjni.so:system/lib64/libimageprocessorjni.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib64/libipanat.so:system/lib64/libipanat.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libjansson.so:system/lib64/libjansson.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libkeystore_fips.so:system/lib64/libkeystore_fips.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/liblights-core.so:system/lib64/liblights-core.so \
@@ -276,9 +274,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libmiscta.so:system/lib64/libmiscta.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libMiscTAApi.so:system/lib64/libMiscTAApi.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib64/libnetfilter_conntrack.so:system/lib64/libnetfilter_conntrack.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib64/libnfc-config.so:system/lib64/libnfc-config.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib64/libnfnetlink.so:system/lib64/libnfnetlink.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libpf.so:system/lib64/libpf.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libpfter.so:system/lib64/libpfter.so \
@@ -293,7 +288,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/lib64/librebuffering.so:system/lib64/librebuffering.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libregionalization.so:system/lib64/libregionalization.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libscdclient.so:system/lib64/libscdclient.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libservicemenu.so:system/lib64/libservicemenu.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libsnappy.so:system/lib64/libsnappy.so \
@@ -321,8 +315,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libtlcore.so:system/lib64/libtlcore.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libtpm.so:system/lib64/libtpm.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib64/libttscompat.so:system/lib64/libttscompat.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib64/libttspico.so:system/lib64/libttspico.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libwfdhdcpcp.so:system/lib64/libwfdhdcpcp.so \
     vendor/sony/loire-kugo-caf/proprietary/lib64/libwnndict.so:system/lib64/libwnndict.so \
@@ -361,7 +353,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/camera/libexcal_stream_ctrl_plugin.so:system/lib/camera/libexcal_stream_ctrl_plugin.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/sony/loire-kugo-caf/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
@@ -426,9 +417,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib/libnfc-config.so:system/lib/libnfc-config.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib/libnfc_nci_jni.so:system/lib/libnfc_nci_jni.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/libpf.so:system/lib/libpf.so \
@@ -445,7 +433,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/lib/librebuffering.so:system/lib/librebuffering.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/libregionalization.so:system/lib/libregionalization.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/librilqmiservices.so:system/lib/librilqmiservices.so \
-    vendor/sony/loire-kugo-caf/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/libscdclient.so:system/lib/libscdclient.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/libservicemenu.so:system/lib/libservicemenu.so \
     vendor/sony/loire-kugo-caf/proprietary/lib/libsmtofrgbc.so:system/lib/libsmtofrgbc.so \
@@ -542,7 +529,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
-    vendor/sony/loire-kugo-caf/proprietary/vendor/bin/ipacm:system/vendor/bin/ipacm \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/sony/loire-kugo-caf/proprietary/vendor/bin/keyprovd:system/vendor/bin/keyprovd \
@@ -1644,7 +1630,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libtar.so:system/vendor/lib/libtar.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/sony/loire-kugo-caf/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \

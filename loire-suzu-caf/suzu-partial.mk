@@ -24,6 +24,14 @@ PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal
 
+# widevine
+PRODUCT_PACKAGES += \
+    libdrmwvmplugin \
+    libwvdrmengine \
+    libwvdrm_L1 \
+    libwvm \
+    libWVStreamControlAPI_L1
+
 # framework
 PRODUCT_PACKAGES += \
     qcnvitems \

@@ -15,6 +15,8 @@
 # shared libraries
 PRODUCT_PACKAGES += \
     libta \
+    libloc_api_v02 \
+    libloc_ds_api \
     libqmiservices \
     libdsi_netctrl \
     libqmi_cci \
@@ -50,6 +52,7 @@ PRODUCT_PACKAGES += \
 # priv-pp
 PRODUCT_PACKAGES += \
     CNEService \
+    com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
     QtiTetherService

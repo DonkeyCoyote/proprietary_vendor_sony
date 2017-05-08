@@ -187,12 +187,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/sony/loire-suzu-caf/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
@@ -202,10 +206,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/sony/loire-suzu-caf/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/sony/loire-suzu-caf/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/sony/loire-suzu-caf/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
@@ -479,6 +485,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/lib64/libjansson.so:system/lib64/libjansson.so \
     vendor/sony/loire-suzu-caf/proprietary/lib64/libkeystore_fips.so:system/lib64/libkeystore_fips.so \
     vendor/sony/loire-suzu-caf/proprietary/lib64/liblights-core.so:system/lib64/liblights-core.so \
+    vendor/sony/loire-suzu-caf/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    vendor/sony/loire-suzu-caf/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/sony/loire-suzu-caf/proprietary/lib64/libminui.so:system/lib64/libminui.so \
     vendor/sony/loire-suzu-caf/proprietary/lib64/libmiscta.so:system/lib64/libmiscta.so \
     vendor/sony/loire-suzu-caf/proprietary/lib64/libpf.so:system/lib64/libpf.so \
@@ -544,6 +552,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/ipacm-diag:system/vendor/bin/ipacm-diag \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/keyprovd:system/vendor/bin/keyprovd \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/mlog_qmi_service:system/vendor/bin/mlog_qmi_service \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
@@ -573,6 +583,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/sony/loire-suzu-caf/proprietary/vendor/bin/updatemiscta:system/vendor/bin/updatemiscta \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
     vendor/sony/loire-suzu-caf/proprietary/vendor/camera/SEM13BS0/color_ctrl.dat:system/vendor/camera/SEM13BS0/color_ctrl.dat \
     vendor/sony/loire-suzu-caf/proprietary/vendor/camera/SEM13BS0/dataflow.dat:system/vendor/camera/SEM13BS0/dataflow.dat \
     vendor/sony/loire-suzu-caf/proprietary/vendor/camera/SEM13BS0/exposure_ctrl.dat:system/vendor/camera/SEM13BS0/exposure_ctrl.dat \
@@ -692,6 +704,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/camera/streaming.dat:system/vendor/camera/streaming.dat \
     vendor/sony/loire-suzu-caf/proprietary/vendor/camera/supported.dat:system/vendor/camera/supported.dat \
     vendor/sony/loire-suzu-caf/proprietary/vendor/camera/version.dat:system/vendor/camera/version.dat \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -1193,6 +1206,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -1203,7 +1217,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/sony/loire-suzu-caf/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
@@ -1466,6 +1479,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/egl/libq3dtools_esx.so:system/vendor/lib64/egl/libq3dtools_esx.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/hw/activity_recognition.msm8952.so:system/vendor/lib64/hw/activity_recognition.msm8952.so \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/hw/gatekeeper.msm8952.so:system/vendor/lib64/hw/gatekeeper.msm8952.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/hw/keystore.msm8952.so:system/vendor/lib64/hw/keystore.msm8952.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/hw/vulkan.msm8952.so:system/vendor/lib64/hw/vulkan.msm8952.so \
@@ -1571,6 +1585,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
+    vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/sony/loire-suzu-caf/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \

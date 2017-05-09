@@ -55,6 +55,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Hdmi_cal.acdb \
     vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Headset_cal.acdb \
     vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb:system/etc/acdbdata/QRD/msm8976-skun-snd-card/QRD_SKUN_Speaker_cal.acdb \
+    vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/Sony/Sony_loire_Bluetooth_cal.acdb:system/etc/acdbdata/Sony/Sony_loire_Bluetooth_cal.acdb \
+    vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/Sony/Sony_loire_General_cal.acdb:system/etc/acdbdata/Sony/Sony_loire_General_cal.acdb \
+    vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/Sony/Sony_loire_Global_cal.acdb:system/etc/acdbdata/Sony/Sony_loire_Global_cal.acdb \
+    vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/Sony/Sony_loire_Handset_cal.acdb:system/etc/acdbdata/Sony/Sony_loire_Handset_cal.acdb \
+    vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/Sony/Sony_loire_Hdmi_cal.acdb:system/etc/acdbdata/Sony/Sony_loire_Hdmi_cal.acdb \
+    vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/Sony/Sony_loire_Headset_cal.acdb:system/etc/acdbdata/Sony/Sony_loire_Headset_cal.acdb \
+    vendor/sony/loire-suzu-caf/proprietary/etc/acdbdata/Sony/Sony_loire_Speaker_cal.acdb:system/etc/acdbdata/Sony/Sony_loire_Speaker_cal.acdb \
     vendor/sony/loire-suzu-caf/proprietary/etc/ad_calib.cfg:system/etc/ad_calib.cfg \
     vendor/sony/loire-suzu-caf/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/sony/loire-suzu-caf/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \

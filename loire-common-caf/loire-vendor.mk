@@ -243,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common-caf/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/sony/loire-common-caf/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/sony/loire-common-caf/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
-    vendor/sony/loire-common-caf/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
     vendor/sony/loire-common-caf/proprietary/lib/kobjeventd/touch_cover.so:system/lib/kobjeventd/touch_cover.so \
     vendor/sony/loire-common-caf/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/sony/loire-common-caf/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
@@ -402,7 +401,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/loire-common-caf/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
     vendor/sony/loire-common-caf/proprietary/lib/soundfx/libznrwrapper.so:system/lib/soundfx/libznrwrapper.so \
     vendor/sony/loire-common-caf/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
-    vendor/sony/loire-common-caf/proprietary/lib64/hw/fingerprint.msm8952.so:system/lib64/hw/fingerprint.msm8952.so \
     vendor/sony/loire-common-caf/proprietary/lib64/kobjeventd/touch_cover.so:system/lib64/kobjeventd/touch_cover.so \
     vendor/sony/loire-common-caf/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
     vendor/sony/loire-common-caf/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \

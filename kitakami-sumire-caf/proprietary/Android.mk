@@ -331,19 +331,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/hw
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := fingerprint_msm8994_so_32
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib/hw/fingerprint.msm8994.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := fingerprint.msm8994
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 32
-LOCAL_STRIP_MODULE := false
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib/hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := touch_cover_so_32
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -6537,19 +6524,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/egl
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := fingerprint_msm8994_so_64
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := lib64/hw/fingerprint.msm8994.so
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := fingerprint.msm8994
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := 64
-LOCAL_STRIP_MODULE := false
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib64/hw
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := touch_cover_so_64
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -11555,6 +11529,61 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_b00
+LOCAL_MODULE_SUFFIX := .b00
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzfingerprint.b00
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_b01
+LOCAL_MODULE_SUFFIX := .b01
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzfingerprint.b01
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_b02
+LOCAL_MODULE_SUFFIX := .b02
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzfingerprint.b02
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_b03
+LOCAL_MODULE_SUFFIX := .b03
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzfingerprint.b03
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := tzfingerprint_mdt
+LOCAL_MODULE_SUFFIX := .mdt
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/firmware/tzfingerprint.mdt
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := tzfingerprint
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := tzhdcp_b00
 LOCAL_MODULE_SUFFIX := .b00
 LOCAL_MODULE_OWNER := Sony Mobile
@@ -12950,61 +12979,6 @@ LOCAL_SRC_FILES := vendor/bin/xtwifi-inet-agent
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/bin
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := tzfingerprint_b00
-LOCAL_MODULE_SUFFIX := .b00
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.b00
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := tzfingerprint
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := tzfingerprint_b01
-LOCAL_MODULE_SUFFIX := .b01
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.b01
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := tzfingerprint
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := tzfingerprint_b02
-LOCAL_MODULE_SUFFIX := .b02
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.b02
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := tzfingerprint
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := tzfingerprint_b03
-LOCAL_MODULE_SUFFIX := .b03
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.b03
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := tzfingerprint
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := tzfingerprint_mdt
-LOCAL_MODULE_SUFFIX := .mdt
-LOCAL_MODULE_OWNER := Sony Mobile
-LOCAL_SRC_FILES := vendor/firmware/tzfingerprint.mdt
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_STEM := tzfingerprint
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/firmware
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)

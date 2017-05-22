@@ -39,7 +39,6 @@ PRODUCT_PACKAGES += \
 	libdrmwvmplugin \
 	libGLES_android_so_32 \
 	camera.msm8994 \
-	fingerprint_msm8994_so_32 \
 	touch_cover_so_32 \
 	libMcClient_so_32 \
 	libMcRegistry_so_32 \
@@ -533,7 +532,6 @@ PRODUCT_PACKAGES += \
 	libqcreverb \
 	libqcvirt \
 	libGLES_android_so_64 \
-	fingerprint_msm8994_so_64 \
 	touch_cover_so_64 \
 	libMcClient_so_64 \
 	libMcRegistry_so_64 \
@@ -942,6 +940,11 @@ PRODUCT_PACKAGES += \
 	tzdtcpkctl_b02 \
 	tzdtcpkctl_b03 \
 	tzdtcpkctl_mdt \
+	tzfingerprint_b00 \
+	tzfingerprint_b01 \
+	tzfingerprint_b02 \
+	tzfingerprint_b03 \
+	tzfingerprint_mdt \
 	tzhdcp_b00 \
 	tzhdcp_b01 \
 	tzhdcp_b02 \
@@ -1073,11 +1076,6 @@ PRODUCT_PACKAGES += \
 	updatemiscta \
 	xtwifi-client \
 	xtwifi-inet-agent \
-	tzfingerprint_b00 \
-	tzfingerprint_b01 \
-	tzfingerprint_b02 \
-	tzfingerprint_b03 \
-	tzfingerprint_mdt \
 	LGI05BN0_color_ctrl_dat \
 	LGI05BN0_dataflow_dat \
 	LGI05BN0_debug_mgr_dat \

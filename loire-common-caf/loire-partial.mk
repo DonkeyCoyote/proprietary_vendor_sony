@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2013 Sony Mobile Communication
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,25 +14,8 @@
 
 # shared libraries
 PRODUCT_PACKAGES += \
-    libta \
     libloc_api_v02 \
-    libloc_ds_api \
-    libqmiservices \
-    libdsi_netctrl \
-    libqmi_cci \
-    libqmi_csi \
-    libqmi_common_so \
-    libtime_genoff \
-    libts_detected_face_hal \
-    libts_face_beautify_hal
-
-# widevine
-PRODUCT_PACKAGES += \
-    libdrmwvmplugin \
-    libwvdrmengine \
-    libwvdrm_L1 \
-    libwvm \
-    libWVStreamControlAPI_L1
+    libloc_ds_api
 
 # framework
 PRODUCT_PACKAGES += \
@@ -41,18 +24,14 @@ PRODUCT_PACKAGES += \
 
 # app
 PRODUCT_PACKAGES += \
-    embms \
     fastdormancy \
     ims \
     imssettings \
     QtiTelephonyService \
-    shutdownlistener \
     TimeService
 
 # priv-pp
 PRODUCT_PACKAGES += \
     CNEService \
     com.qualcomm.location \
-    dpmserviceapp \
-    qcrilmsgtunnel \
-    QtiTetherService
+    qcrilmsgtunnel

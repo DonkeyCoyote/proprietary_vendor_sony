@@ -43,44 +43,9 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-z3-caf/proprietary/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb:system/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb \
 	vendor/sony/shinano-z3-caf/proprietary/etc/acdbdata/Sony/Sony_Headset_cal.acdb:system/etc/acdbdata/Sony/Sony_Headset_cal.acdb \
 	vendor/sony/shinano-z3-caf/proprietary/etc/acdbdata/Sony/Sony_Speaker_cal.acdb:system/etc/acdbdata/Sony/Sony_Speaker_cal.acdb \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b12:system/etc/firmware/modem.b12 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b23:system/etc/firmware/modem.b23 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b24:system/etc/firmware/modem.b24 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
-	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
@@ -205,3 +170,79 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-z3-caf/proprietary/vendor/camera/LGI02BN1/scene_detector.dat:system/vendor/camera/LGI02BN1/scene_detector.dat \
 	vendor/sony/shinano-z3-caf/proprietary/vendor/camera/LGI02BN1/snapshot_ctrl.dat:system/vendor/camera/LGI02BN1/snapshot_ctrl.dat \
 	vendor/sony/shinano-z3-caf/proprietary/vendor/camera/LGI02BN1/streaming_ctrl.dat:system/vendor/camera/LGI02BN1/streaming_ctrl.dat
+
+# Modem specific files: 
+# dsds = dual SIM
+# ets = single SIM
+PRODUCT_COPY_FILES += \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b00:system/vendor/etc/firmware/adsp_leo_dsds.b00 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b01:system/vendor/etc/firmware/adsp_leo_dsds.b01 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b02:system/vendor/etc/firmware/adsp_leo_dsds.b02 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b03:system/vendor/etc/firmware/adsp_leo_dsds.b03 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b04:system/vendor/etc/firmware/adsp_leo_dsds.b04 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b05:system/vendor/etc/firmware/adsp_leo_dsds.b05 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b06:system/vendor/etc/firmware/adsp_leo_dsds.b06 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b07:system/vendor/etc/firmware/adsp_leo_dsds.b07 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b08:system/vendor/etc/firmware/adsp_leo_dsds.b08 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b09:system/vendor/etc/firmware/adsp_leo_dsds.b09 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b10:system/vendor/etc/firmware/adsp_leo_dsds.b10 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b11:system/vendor/etc/firmware/adsp_leo_dsds.b11 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.b12:system/vendor/etc/firmware/adsp_leo_dsds.b12 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_dsds.mdt:system/vendor/etc/firmware/adsp_leo_dsds.mdt \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b00:system/vendor/etc/firmware/adsp_leo_ets.b00 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b01:system/vendor/etc/firmware/adsp_leo_ets.b01 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b02:system/vendor/etc/firmware/adsp_leo_ets.b02 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b03:system/vendor/etc/firmware/adsp_leo_ets.b03 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b04:system/vendor/etc/firmware/adsp_leo_ets.b04 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b05:system/vendor/etc/firmware/adsp_leo_ets.b05 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b06:system/vendor/etc/firmware/adsp_leo_ets.b06 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b07:system/vendor/etc/firmware/adsp_leo_ets.b07 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b08:system/vendor/etc/firmware/adsp_leo_ets.b08 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b09:system/vendor/etc/firmware/adsp_leo_ets.b09 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b10:system/vendor/etc/firmware/adsp_leo_ets.b10 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b11:system/vendor/etc/firmware/adsp_leo_ets.b11 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.b12:system/vendor/etc/firmware/adsp_leo_ets.b12 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/adsp_leo_ets.mdt:system/vendor/etc/firmware/adsp_leo_ets.mdt \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b00:system/vendor/etc/firmware/modem_leo_dsds.b00 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b01:system/vendor/etc/firmware/modem_leo_dsds.b01 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b02:system/vendor/etc/firmware/modem_leo_dsds.b02 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b03:system/vendor/etc/firmware/modem_leo_dsds.b03 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b06:system/vendor/etc/firmware/modem_leo_dsds.b06 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b08:system/vendor/etc/firmware/modem_leo_dsds.b08 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b09:system/vendor/etc/firmware/modem_leo_dsds.b09 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b11:system/vendor/etc/firmware/modem_leo_dsds.b11 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b12:system/vendor/etc/firmware/modem_leo_dsds.b12 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b13:system/vendor/etc/firmware/modem_leo_dsds.b13 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b14:system/vendor/etc/firmware/modem_leo_dsds.b14 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b15:system/vendor/etc/firmware/modem_leo_dsds.b15 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b16:system/vendor/etc/firmware/modem_leo_dsds.b16 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b17:system/vendor/etc/firmware/modem_leo_dsds.b17 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b18:system/vendor/etc/firmware/modem_leo_dsds.b18 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b19:system/vendor/etc/firmware/modem_leo_dsds.b19 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b22:system/vendor/etc/firmware/modem_leo_dsds.b22 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b23:system/vendor/etc/firmware/modem_leo_dsds.b23 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b24:system/vendor/etc/firmware/modem_leo_dsds.b24 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.b25:system/vendor/etc/firmware/modem_leo_dsds.b25 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_dsds.mdt:system/vendor/etc/firmware/modem_leo_dsds.mdt \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b00:system/vendor/etc/firmware/modem_leo_ets.b00 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b01:system/vendor/etc/firmware/modem_leo_ets.b01 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b02:system/vendor/etc/firmware/modem_leo_ets.b02 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b03:system/vendor/etc/firmware/modem_leo_ets.b03 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b06:system/vendor/etc/firmware/modem_leo_ets.b06 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b08:system/vendor/etc/firmware/modem_leo_ets.b08 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b09:system/vendor/etc/firmware/modem_leo_ets.b09 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b11:system/vendor/etc/firmware/modem_leo_ets.b11 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b12:system/vendor/etc/firmware/modem_leo_ets.b12 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b13:system/vendor/etc/firmware/modem_leo_ets.b13 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b14:system/vendor/etc/firmware/modem_leo_ets.b14 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b15:system/vendor/etc/firmware/modem_leo_ets.b15 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b16:system/vendor/etc/firmware/modem_leo_ets.b16 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b17:system/vendor/etc/firmware/modem_leo_ets.b17 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b18:system/vendor/etc/firmware/modem_leo_ets.b18 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b19:system/vendor/etc/firmware/modem_leo_ets.b19 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b22:system/vendor/etc/firmware/modem_leo_ets.b22 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b23:system/vendor/etc/firmware/modem_leo_ets.b23 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b24:system/vendor/etc/firmware/modem_leo_ets.b24 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.b25:system/vendor/etc/firmware/modem_leo_ets.b25 \
+	vendor/sony/shinano-z3-caf/proprietary/vendor/etc/firmware/modem_leo_ets.mdt:system/vendor/etc/firmware/modem_leo_ets.mdt
+

@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common-caf/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
 	vendor/sony/shinano-common-caf/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
 	vendor/sony/shinano-common-caf/proprietary/bin/irsc_util:system/bin/irsc_util \
-	vendor/sony/shinano-common-caf/proprietary/bin/loc_launcher:system/bin/loc_launcher \
 	vendor/sony/shinano-common-caf/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
 	vendor/sony/shinano-common-caf/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/sony/shinano-common-caf/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -198,6 +197,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common-caf/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \
 	vendor/sony/shinano-common-caf/proprietary/sbin/tad_static:system/sbin/tad_static \
 	vendor/sony/shinano-common-caf/proprietary/sbin/wait4tad_static:system/sbin/wait4tad_static \
+	vendor/sony/shinano-common-caf/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
 	vendor/sony/shinano-common-caf/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
 	vendor/sony/shinano-common-caf/proprietary/vendor/camera/jpeg_fsc.dat:system/vendor/camera/jpeg_fsc.dat \
 	vendor/sony/shinano-common-caf/proprietary/vendor/CredentialManagerData:system/vendor/CredentialManagerData \

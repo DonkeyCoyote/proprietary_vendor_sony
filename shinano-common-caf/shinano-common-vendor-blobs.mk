@@ -112,7 +112,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common-caf/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:system/lib/camera/libexcal_streaming_ctrl_plugin.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-	vendor/sony/shinano-common-caf/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+	vendor/sony/shinano-common-caf/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/libcacao_chokoball.so:system/lib/libcacao_chokoball.so \

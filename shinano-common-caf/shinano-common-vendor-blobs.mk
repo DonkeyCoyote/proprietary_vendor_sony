@@ -220,8 +220,8 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
 	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
-	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
+	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
 	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
 	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	vendor/sony/shinano-common-caf/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \

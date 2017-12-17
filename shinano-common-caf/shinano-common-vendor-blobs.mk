@@ -168,7 +168,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-common-caf/proprietary/lib/libsomc_chokoballpal.so:system/lib/libsomc_chokoballpal.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/libsony_chokoballrsc.so:system/lib/libsony_chokoballrsc.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/libsony_chokoball.so:system/lib/libsony_chokoball.so \
-	vendor/sony/shinano-common-caf/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/libta.so:system/lib/libta.so \
 	vendor/sony/shinano-common-caf/proprietary/lib/lib_uncontrolled_rooting_status.so:system/lib/lib_uncontrolled_rooting_status.so \

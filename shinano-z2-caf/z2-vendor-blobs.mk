@@ -168,10 +168,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-z2-caf/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.preset:system/etc/tfa98xx/VoiceCallSpeaker_btm.preset \
 	vendor/sony/shinano-z2-caf/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.eq:system/etc/tfa98xx/VoiceCallSpeaker_top.eq \
 	vendor/sony/shinano-z2-caf/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.preset:system/etc/tfa98xx/VoiceCallSpeaker_top.preset \
-	vendor/sony/shinano-z2-caf/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
-	vendor/sony/shinano-z2-caf/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc \
-	vendor/sony/shinano-z2-caf/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-	vendor/sony/shinano-z2-caf/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc
+	vendor/sony/shinano-z2-caf/proprietary/usr/idc/max1187x_touchscreen_0.idc:system/usr/idc/max1187x_touchscreen_0.idc
 
 # Camera specific files
 PRODUCT_COPY_FILES += \

@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/tzhdcp.flist:system/etc/firmware/tzhdcp.flist \
 	vendor/sony/shinano-z3-caf/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
-	vendor/sony/shinano-z3-caf/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
 	vendor/sony/shinano-z3-caf/proprietary/etc/tfa98xx/btm.speaker:system/etc/tfa98xx/btm.speaker \
 	vendor/sony/shinano-z3-caf/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
 	vendor/sony/shinano-z3-caf/proprietary/etc/tfa98xx/FMSpeaker_btm.eq:system/etc/tfa98xx/FMSpeaker_btm.eq \
@@ -82,10 +81,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sony/shinano-z3-caf/proprietary/etc/tfa98xx/VoiceCallSpeaker_btm.preset:system/etc/tfa98xx/VoiceCallSpeaker_btm.preset \
 	vendor/sony/shinano-z3-caf/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.eq:system/etc/tfa98xx/VoiceCallSpeaker_top.eq \
 	vendor/sony/shinano-z3-caf/proprietary/etc/tfa98xx/VoiceCallSpeaker_top.preset:system/etc/tfa98xx/VoiceCallSpeaker_top.preset \
-	vendor/sony/shinano-z3-caf/proprietary/usr/idc/AVRCP.idc:system/usr/idc/AVRCP.idc \
-	vendor/sony/shinano-z3-caf/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-	vendor/sony/shinano-z3-caf/proprietary/usr/idc/qwerty2.idc:system/usr/idc/qwerty2.idc \
-	vendor/sony/shinano-z3-caf/proprietary/usr/idc/qwerty.idc:system/usr/idc/qwerty.idc \
+	vendor/sony/shinano-z3-caf/proprietary/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc
 
 #Camera specific files
 PRODUCT_COPY_FILES += \

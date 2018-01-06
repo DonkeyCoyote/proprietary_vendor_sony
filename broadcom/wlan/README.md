@@ -4,4 +4,4 @@ For all HW except the ones in the git we use the following AOSP repository:
 https://android.googlesource.com/platform/hardware/broadcom/wlan/
 
 Open Devices build instructions and resources are available on:
-https://developer.sonymobile.com/open-devices/aosp-build-instructions/
+https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/

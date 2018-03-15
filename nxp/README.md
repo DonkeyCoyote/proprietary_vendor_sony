@@ -4,4 +4,4 @@ The firmware is provided by NXP in the following repository:
 https://github.com/NXPNFCProject/NXPNFCC_FW
 
 Open Devices build instructions and resources are available on:
-https://developer.sonymobile.com/open-devices/aosp-build-instructions/
+https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/

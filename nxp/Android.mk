@@ -25,7 +25,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libpn547_fw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc/firmware/
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 else
 include $(CLEAR_VARS)
@@ -36,7 +36,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libpn547_fw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc/firmware/
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 endif
 endif
@@ -51,7 +51,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libpn548_fw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc/firmware/
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 else
 include $(CLEAR_VARS)
@@ -62,7 +62,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libpn548_fw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc/firmware/
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 endif
 endif
@@ -77,7 +77,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libpn551_fw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc/firmware/
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 else
 include $(CLEAR_VARS)
@@ -88,7 +88,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libpn551_fw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc/firmware/
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 endif
 endif
@@ -103,7 +103,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libpn553_fw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc/firmware/
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 else
 include $(CLEAR_VARS)
@@ -114,7 +114,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_STEM := libpn553_fw
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT)/vendor/etc/firmware/
+LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR)/firmware
 include $(BUILD_PREBUILT)
 endif
 endif

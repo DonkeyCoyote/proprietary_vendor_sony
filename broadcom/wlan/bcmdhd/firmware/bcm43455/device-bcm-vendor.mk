@@ -20,3 +20,8 @@ BCM_FW_SRC_FILE_AP  := fw_bcmdhd_apsta.bin
 PRODUCT_COPY_FILES += \
     vendor/sony/broadcom/wlan/bcmdhd/firmware/bcm43455/$(BCM_FW_SRC_FILE_STA):$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd.bin \
     vendor/sony/broadcom/wlan/bcmdhd/firmware/bcm43455/$(BCM_FW_SRC_FILE_AP):$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcmdhd_apsta.bin
+
+ifeq ($(WIFI_DRIVER_BUILT),brcmfmac)
+PRODUCT_COPY_FILES += \
+    vendor/sony/broadcom/wlan/bcmdhd/firmware/bcm43455/$(BCM_FW_SRC_FILE_STA):$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/brcmfmac43455-sdio.bin
+endif

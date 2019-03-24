@@ -206,6 +206,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/voyager/proprietary/vendor/firmware/bu64747gwz.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/bu64747gwz.prog \
     vendor/sony/voyager/proprietary/vendor/lib/libactuator_bu24228gwl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu24228gwl.so \
     vendor/sony/voyager/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
+    vendor/sony/voyager/proprietary/vendor/lib/libactuator_bu64747gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64747gwz.so \
     vendor/sony/voyager/proprietary/vendor/lib/libchromatix_imx219_chicony_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_common.so \
     vendor/sony/voyager/proprietary/vendor/lib/libchromatix_imx219_chicony_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_cpp_snapshot.so \
     vendor/sony/voyager/proprietary/vendor/lib/libchromatix_imx219_chicony_cpp_snapshot_B.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx219_chicony_cpp_snapshot_B.so \

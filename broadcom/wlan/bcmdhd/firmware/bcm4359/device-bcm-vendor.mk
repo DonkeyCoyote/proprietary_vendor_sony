@@ -21,5 +21,5 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(WIFI_DRIVER_BUILT),brcmfmac)
 PRODUCT_COPY_FILES += \
-    vendor/sony/broadcom/wlan/bcmdhd/firmware/bcm43455/$(BCM_FW_SRC_FILE_STA):$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/brcmfmac4359-pcie.bin
+    vendor/sony/broadcom/wlan/bcmdhd/firmware/bcm4359/$(BCM_FW_SRC_FILE_STA):$(TARGET_COPY_OUT_VENDOR)/firmware/brcm/brcmfmac4359-pcie.bin
 endif

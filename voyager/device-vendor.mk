@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/voyager/proprietary/vendor/bin/qns:$(TARGET_COPY_OUT_VENDOR)/bin/qns \
-    vendor/sony/voyager/proprietary/vendor/etc/qdcm_calib_data_td4328_tianma_fhdplus_command_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_td4328_tianma_fhdplus_command_mode_dsi_panel.xml \
     vendor/sony/voyager/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO1400_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO1400_3200x1808.ncf \
     vendor/sony/voyager/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO1400_3264x2448.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO1400_3264x2448.ncf \
     vendor/sony/voyager/proprietary/vendor/etc/FLASH_ON/IMX219/120/ISO2000_3200x1808.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/FLASH_ON/IMX219/120/ISO2000_3200x1808.ncf \
@@ -198,8 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/voyager/proprietary/vendor/etc/camera/imx300_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx300_chromatix.xml \
     vendor/sony/voyager/proprietary/vendor/etc/camera/imx300_sm42_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx300_sm42_chromatix.xml \
     vendor/sony/voyager/proprietary/vendor/etc/camera/sm42_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sm42_camera_config.xml \
-    vendor/sony/voyager/proprietary/vendor/etc/sensors/sensor_def_by4xspdef.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_by4xspdef.conf \
-    vendor/sony/voyager/proprietary/vendor/etc/sensors/sensor_def_by4xspdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_by4xspdev.conf \
     vendor/sony/voyager/proprietary/vendor/etc/wifi/bdwlan12.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan12.bin \
     vendor/sony/voyager/proprietary/vendor/etc/wifi/bdwlan22.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan22.bin \
     vendor/sony/voyager/proprietary/vendor/etc/wifi/bdwlan42.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan42.bin \
